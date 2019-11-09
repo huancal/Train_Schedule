@@ -68,7 +68,6 @@ $(document).ready(function () {
         var newRow = $("<tr>");
         newRow.append("<td>" + trainname + "</td>");
         newRow.append("<td>" + destination + "</td>");
-        // newRow.append("<td>" + traintime + "</td>");
         newRow.append("<td>" + frequency + "</td>");
         newRow.append("<td>" + nextarrival + "</td>");
         newRow.append("<td>" + frequencytrain + "</td>");

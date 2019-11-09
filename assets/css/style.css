@@ -1,0 +1,93 @@
+.col-lg-12,
+.form-control {
+    border-style: solid;
+    border-width: 2px;
+    color: #0c0c0c;
+
+}
+
+
+label,
+th {
+    font-size: 16pt;
+    font-style: italic;
+    color: rgb(116, 6, 6);
+}
+
+h3 {
+    color: #0984e3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 28pt;
+}
+
+.form-control {
+    background: none;
+    border-width: 2px;
+    border-color: #080808;
+}
+
+
+.jumbotron {
+    color: #4b5466;
+    background: none;
+    font-family: 'Ubuntu Mono', monospace;
+
+}
+
+h1 {
+    font-size: 36pt;
+}
+
+button {
+    margin-bottom: 20px;
+
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #0984e3;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+body {
+    background-image: url(https://res.cloudinary.com/jnto/image/upload/w_1000,h_600,c_fill,f_auto,fl_lossy,q_auto/v1/media/filer_public/90/b2/90b24d1c-87e9-4694-880c-76db983be025/n700-series-1-shinkansen-flickr-hans-johnson_qvyk8t);
+    background-repeat: no-repeat, repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Ubuntu Mono', monospace;
+    font-style: bold;
+}
